@@ -1,12 +1,12 @@
 import configparser
 import os.path
-from src.Compressor import Compressor
+from src.compressor import Compressor
 import logging
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    SRC_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
-    MAIN_DIRECTORY = os.path.dirname(os.path.abspath(SRC_DIRECTORY))
+    print('spousteni z konzole')
+    MAIN_DIRECTORY = os.path.dirname(os.path.abspath(__file__))
     CONFIG_DIRECTORY = MAIN_DIRECTORY + '\config\Alpha2.ini'
 
     parser = configparser.ConfigParser()
