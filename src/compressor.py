@@ -12,7 +12,6 @@ class Compressor:
 
     def set_file_directory(self, file_directory):
 
-        # add handling for non-valid arguments
         if not os.path.isfile(file_directory):
             logging.warning(f'{file_directory} path is not valid')
             raise FileNotFoundError()
@@ -45,20 +44,14 @@ class Compressor:
         # Function to capitalize the first letter of each word
         def capitalize(match):
             return match.group(0).capitalize()
-
-        # Use re.sub with a custom function to capitalize each word
         pascal_case_text = re.sub(pattern, capitalize, text)
 
         return pascal_case_text
 
     def replace_with_codes(self, text):
-        # Find all words with at least 5 characters
+
         words = re.findall(r'\b\w{6,}\b', text)
-
-        # Count the occurrences of each word
         word_counts = Counter(words)
-
-        # Get the 5 most common words
         most_common_words = [word for word, _ in word_counts.most_common(5)]
 
         # Create a dictionary to map each most common word to a unique code

@@ -8,3 +8,19 @@
 2024-01-11 00:06:25,657 - INFO - used file path: C:\Users\pivon\PycharmProjects\Alpha2\data\compressed_text.txt
 2024-01-11 00:10:05,751 - INFO - valid path set
 2024-01-11 00:10:05,751 - INFO - valid directory set
+2024-01-11 19:53:37,900 - INFO - valid path set
+2024-01-11 19:53:37,900 - INFO - valid directory set
+2024-01-11 19:54:38,021 - INFO - valid path set
+2024-01-11 19:54:38,021 - INFO - valid directory set
+2024-01-11 19:54:53,252 - INFO - valid path set
+2024-01-11 19:54:53,252 - INFO - valid directory set
+2024-01-11 19:56:13,005 - INFO - valid path set
+2024-01-11 19:56:13,005 - INFO - valid directory set
+2024-01-12 06:26:42,083 - INFO - valid path set
+2024-01-12 06:26:42,083 - INFO - valid directory set
+2024-01-12 06:27:00,303 - INFO - valid path set
+2024-01-12 06:27:00,303 - INFO - valid directory set
+2024-01-12 06:27:16,510 - INFO - attempted compress file
+2024-01-12 06:27:16,519 - INFO - Read content from C:\Users\pivon\PycharmProjects\Alpha2\data\bee-movie.txt
+2024-01-12 06:27:16,535 - INFO - file compressed successfully
+2024-01-12 06:27:16,535 - INFO - used file path: C:\Users\pivon\PycharmProjects\Alpha2\data\compressed_text.txt
